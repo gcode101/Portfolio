@@ -13,11 +13,7 @@
 	border-color: rgba(231, 231, 231, 0.45);
 }
 
-.active{
-	background-color: red !important;
-}
-
-/*Main Content*/
+/*Slide1*/
 #home-row-1{
 	padding-top: 230px;
 	padding-bottom: 530px;
@@ -26,8 +22,93 @@
 
 #first-slide{
 	background-image: url('../images/black&red_binary.jpg');
-	background: cover;
-	background-size: 100%;
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
 	background-position: center center;
-	width: 100%;
+}
+
+/*Slide2*/
+.profile-img img{
+	max-width: 200px;
+	border-radius: 20px;
+	position: absolute;
+}
+
+.about-content{
+	width: 68%;
+	color: rgba(255, 255, 255, 0.81);
+	float: right;
+}
+
+#second-slide{
+	background-image: url('../images/about-session-background.jpg');
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: relative;
+	background-position: center center;
+}
+
+#title-row h1{
+	margin-top: 100px;
+}
+
+#title-row hr{
+	width: 50%;
+	border: solid 2px;
+}
+
+#body-row{
+	background-color: rgba(0, 0, 0, 0.72);
+	padding: 70px;
+	border-radius: 40px;
+	margin: 40px;
+}
+
+
+/*Media Queries*/
+@media(max-width: 991px){
+	.profile-img img{
+		display: block;
+		margin: 30px auto;
+		position: initial;
+		margin-bottom: 40px;
+	}
+
+	.about-content{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	#body-row{
+		padding: 20px;
+		margin: 40px 0;
+	}
+
+}
+
+@media(max-width: 767px){
+	#body-row{
+		padding: 10px;
+		margin: 30px 0;
+	}
 }
