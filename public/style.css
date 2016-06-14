@@ -119,6 +119,15 @@
 	background-color: black;
 }
 
+#portfolio-row2{
+	margin-top: 70px;
+	margin-bottom: 170px;
+}
+
+#portfolio-row2 img{
+	border-radius: 20px;
+}
+
 /*Slide4*/
 .slide4{
 	background-color: #31708f;
@@ -173,5 +182,10 @@
 	#home-row-2 .btn-info{
 		font-size: 1.2em;
 		padding: 6px 30px;
+	}
+
+	.slide3 img{
+		margin: 20px auto;
+		width: 80%;
 	}
 }
