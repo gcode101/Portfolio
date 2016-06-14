@@ -133,6 +133,21 @@
 	background-color: #31708f;
 }
 
+.mid-text {
+	color: rgba(255, 255, 255, 0.81);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.9em;
+}
+
+#education-row-2{
+	width: 70%;
+	margin: 50px auto;
+}
+
+#education-row-3{
+	padding-bottom: 70px;
+}
+
 /*Slide5*/
 .slide5{
 	background-color: black;
@@ -156,6 +171,10 @@
 	#body-row{
 		padding: 20px;
 		margin: 40px 0;
+	}
+
+	#education-row-2{
+		width: 100%;
 	}
 
 }
@@ -187,5 +206,13 @@
 	.slide3 img{
 		margin: 20px auto;
 		width: 80%;
+	}
+
+	.title-row{
+		font-size: 2.6em;
+	}
+
+	.mid-text{
+		font-size: 1.5em;
 	}
 }
