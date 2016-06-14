@@ -16,8 +16,34 @@
 /*Slide1*/
 #home-row-1{
 	padding-top: 230px;
-	padding-bottom: 530px;
+	padding-bottom: 200px;
 	color: white;
+}
+
+#home-row-1 h1{
+	font-size: 4em;
+}
+
+#home-row-1 h4{
+	font-size: 2.1em;
+}
+
+#home-row-2{
+	padding-bottom: 170px;
+}
+
+#home-row-2 .btn-info{
+	font-size: 1.5em;
+	padding: 8px 40px;
+}
+
+.font-thin{
+	font-family: 'Lato', sans-serif;
+}
+
+.font-semibold{
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #first-slide{
@@ -44,10 +70,24 @@
 	position: absolute;
 }
 
+#title-row{
+	margin-top: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3.5em;
+	color: rgba(255, 255, 255, 0.81);
+}
+
+#title-row hr{
+	width: 50%;
+	border: solid 2px;
+}
+
 .about-content{
 	width: 68%;
 	color: rgba(255, 255, 255, 0.81);
 	float: right;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3em;
 }
 
 #second-slide{
@@ -65,15 +105,6 @@
     width: 100%;
 	background-attachment: relative;
 	background-position: center center;
-}
-
-#title-row h1{
-	margin-top: 100px;
-}
-
-#title-row hr{
-	width: 50%;
-	border: solid 2px;
 }
 
 #body-row{
@@ -110,5 +141,23 @@
 	#body-row{
 		padding: 10px;
 		margin: 30px 0;
+	}
+
+	#home-row-1{
+		padding-top: 144px;
+		padding-bottom: 110px;
+	}
+
+	#home-row-1 h1{
+		font-size: 2.5em;
+	}
+
+	#home-row-1 h4{
+		font-size: 1.4em;
+	}
+
+	#home-row-2 .btn-info{
+		font-size: 1.2em;
+		padding: 6px 30px;
 	}
 }
