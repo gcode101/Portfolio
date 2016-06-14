@@ -1,0 +1,33 @@
+/*
+ * Author: Guelmis Cortina
+ * URL: https://www.linkedin.com/in/guelmis
+ *
+ * Project Name: Portfolio
+ * Version: 1.0
+ * URL: http://guelmiscortina.herokuapp.com
+ */
+
+/*Navigation*/
+.navbar-default{
+	background-color: rgba(0, 0, 0, 0.56);
+	border-color: rgba(231, 231, 231, 0.45);
+}
+
+.active{
+	background-color: red !important;
+}
+
+/*Main Content*/
+#home-row-1{
+	padding-top: 230px;
+	padding-bottom: 530px;
+	color: white;
+}
+
+#first-slide{
+	background-image: url('../images/black&red_binary.jpg');
+	background: cover;
+	background-size: 100%;
+	background-position: center center;
+	width: 100%;
+}
