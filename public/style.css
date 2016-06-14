@@ -153,6 +153,25 @@
 	background-color: black;
 }
 
+#contact-row-2{
+	padding: 60px 0;
+}
+
+#contact-row-3{
+	padding: 90px 0 130px 0;
+}
+
+#contact-row-3 a {
+	font-size: 5em;
+	color: inherit;
+	color: white;
+}
+
+.small-img{
+	width: 100px;
+	height: auto;
+}
+
 /*Media Queries*/
 @media(max-width: 991px){
 	.profile-img img{
@@ -214,5 +233,14 @@
 
 	.mid-text{
 		font-size: 1.5em;
+	}
+
+	#contact-row-2{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#contact-row-3{
+		padding-top: 10px;
 	}
 }
