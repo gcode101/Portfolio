@@ -15,6 +15,15 @@
 
 /*General Content*/
 
+/*move-up*/
+.move-up {
+    transform: translate3d(0px, 0px, 0px);
+    transition: transform .4s ease-in-out;
+}
+.move-up:hover {
+    transform: translate3d(0px, -20px, 0px);
+}
+
 /*TILT*/
 .tilt {
 	-webkit-transition: all 0.5s ease;
