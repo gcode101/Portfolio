@@ -9,11 +9,32 @@
 
 /*Navigation*/
 .navbar-default{
-	background-color: rgba(0, 0, 0, 0.56);
+	background-color: rgba(0, 0, 0, 0.79);
 	border-color: rgba(231, 231, 231, 0.45);
 }
 
+.navbar-default .navbar-brand{
+	color: rgba(255, 255, 255, 0.81);
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: rgba(255, 255, 255, 0.81);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: rgba(220, 205, 205, 0.81);
+}
+
 /*General Content*/
+a{
+	color: inherit;
+	text-decoration: none !important;
+}
+
+a:hover{
+	color:inherit;
+}
 /*move-up hover:effect*/
 .move-up {
     transform: translate3d(0px, 0px, 0px);
